@@ -1,0 +1,65 @@
+[
+  {
+    "ContainingType": "computerwebshop.Controllers.OsystemController",
+    "Method": "AddNewOsystems",
+    "RelativePath": "osystems",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addnewosystem",
+        "Type": "computerwebshop.models.DTOs.AddNewOsystem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "computerwebshop.Controllers.OsystemController",
+    "Method": "GetAll",
+    "RelativePath": "osystems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "computerwebshop.Controllers.OsystemController",
+    "Method": "DeleteOsystem",
+    "RelativePath": "osystems",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "computerwebshop.Controllers.OsystemController",
+    "Method": "UpdateOsystem",
+    "RelativePath": "osystems",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "updatedto",
+        "Type": "computerwebshop.models.DTOs.UpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
