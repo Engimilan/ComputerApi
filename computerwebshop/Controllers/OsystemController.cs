@@ -79,7 +79,7 @@ namespace computerwebshop.Controllers
                 _context.SaveChanges();
                 return StatusCode(200, new { message = "siker", result = osystem });
             }
-            return StatusCode(404, new { message = "Nem jó", result = "" });
+            return StatusCode(404, new { message = "Nem jó", result  = "" });
         }
     }
 }

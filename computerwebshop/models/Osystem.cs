@@ -12,5 +12,6 @@ namespace computerwebshop.models
         public int Version { get; set; }
         public DateTime RegisterTime { get; set; }
         public DateTime UpdateTime { get; set; }
+        public ICollection<Comp> Computers { get; set; }
     }
 }

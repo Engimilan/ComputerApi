@@ -1,5 +1,104 @@
 [
   {
+    "ContainingType": "computerwebshop.Controllers.ComputerController",
+    "Method": "DeleteById",
+    "RelativePath": "Computer",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "computerwebshop.Controllers.ComputerController",
+    "Method": "GetallComputer",
+    "RelativePath": "Computer/Getall",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "computerwebshop.Controllers.ComputerController",
+    "Method": "GetById",
+    "RelativePath": "Computer/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "computerwebshop.Controllers.ComputerController",
+    "Method": "GetOsComputer",
+    "RelativePath": "Computer/GetOsComputers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "computerwebshop.Controllers.ComputerController",
+    "Method": "NewComputer",
+    "RelativePath": "Computer/NewComputer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addnewcomp",
+        "Type": "computerwebshop.models.DTOs.AddNewComputerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "computerwebshop.Controllers.ComputerController",
+    "Method": "AllOsComputers",
+    "RelativePath": "Computer/OsWithComputers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "computerwebshop.Controllers.ComputerController",
+    "Method": "UpdateComputer",
+    "RelativePath": "Computer/UpdateComp",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "updatecomp",
+        "Type": "computerwebshop.models.DTOs.UpdateComputer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "computerwebshop.Controllers.OsystemController",
     "Method": "AddNewOsystems",
     "RelativePath": "osystems",
